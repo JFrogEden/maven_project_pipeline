@@ -28,7 +28,7 @@ pipeline {
 
         // [Mandatory]
         // JFrog platform URL (This functionality requires version 3.29.0 or above of Xray)
-        JF_URL = credentials("JF_URL")
+        JF_URL = "https://kimt.jfrog.io"
 
         // [Mandatory if JF_USER and JF_PASSWORD are not provided]
         // JFrog access token with 'read' permissions for Xray
