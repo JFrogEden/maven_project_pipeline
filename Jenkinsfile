@@ -21,7 +21,8 @@ pipeline {
         // [Mandatory]
         // Name of the repository to scan
         JF_GIT_REPO = "maven_project_pipeline"
-
+        JF_GIT_BASE_BRANCH = "main"
+        
         // [Mandatory]
         // Name of the git provider, one of the following: [bitbucketServer,github,gitlab,azureRepos]
         JF_GIT_PROVIDER = "github"
