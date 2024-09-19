@@ -1,3 +1,5 @@
+CRON_SETTINGS = '''* * * * *'''
+
 pipeline {
     agent any
 
